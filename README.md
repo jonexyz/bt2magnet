@@ -3,7 +3,8 @@
 <p align="center"> bt种子转磁力链接</p>
 
 ## About
-核心代码搬运自网上，我这只是封装成composer包而已
+核心代码搬运自网上，我这只是封装成composer包而已。
+为方便测试，此包根目录中包含一个 WALL-E.torrent 文件的Bt文件
 
 ## Installing
 
