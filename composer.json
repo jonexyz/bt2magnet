@@ -1,0 +1,16 @@
+{
+    "name": "jonexyz/bt2magnet",
+    "description": "bt种子转成磁力链接",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jone",
+            "email": "abc@jone.xyz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jonexyz\\Bt2magnet\\": "src"
+        }
+    }
+}
