@@ -2,16 +2,27 @@
 
 <p align="center"> bt种子转磁力链接</p>
 
+## About
+核心代码搬运自网上，我这只是封装成composer包而已
 
 ## Installing
 
 ```shell
-$ composer require jonexyz/bt2magnet -vvv
+$ composer require jonexyz/bt2magnet
 ```
 
 ## Usage
 
-TODO
+```$xslt
+<?php
+require './vendor/autoload.php';
+
+use Jonexyz\Bt2magnet\MagnetCreate;
+
+// $path Bt种子文件路径
+$magnet = MagnetCreate::init($path);
+var_dump($magnet);
+```
 
 ## Contributing
 
