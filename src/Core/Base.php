@@ -16,6 +16,9 @@ class Base
 
     }
 
+    /**
+     * @return $this
+     */
     public static function getInstance()
     {
         if(empty(static::$instance[static::class])){
